@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA1_2_DAT0S"/>
+        <attribute name="authors" value="Erick"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-08-27 10:24:48 p. m."/>
+        <attribute name="created" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDgtMjc7MDk6NTY6NTIgcC4gbS47Mjk3NQ=="/>
+        <attribute name="edited" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDgtMjc7MTA6MjQ6NDggcC4gbS47MjszMDc2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;NOMBRE DE ESTUDIANTE: &quot;" newline="False"/>
+            <output expression="&quot;ERICK DE LA ROSA&quot;" newline="True"/>
+            <output expression="&quot;NUMERO DE CONTROL: &quot;" newline="False"/>
+            <output expression="&quot;25550591&quot;" newline="True"/>
+            <output expression="&quot;EDAD: &quot;" newline="False"/>
+            <output expression="&quot;18&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
