@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_7_TRIANGULO"/>
+        <attribute name="authors" value="Erick"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 10:05:41 p. m."/>
+        <attribute name="created" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDE7MDk6NTY6NDcgcC4gbS47Mjk3Mg=="/>
+        <attribute name="edited" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDE7MTA6MDU6NDEgcC4gbS47MTszMDYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="BASE" type="Real" array="False" size=""/>
+            <declare name="ALTURA" type="Real" array="False" size=""/>
+            <declare name="AREA" type="Real" array="False" size=""/>
+            <assign variable="BASE" expression="10"/>
+            <assign variable="ALTURA" expression="20"/>
+            <assign variable="AREA" expression="(BASE*ALTURA)/2"/>
+            <output expression="&quot;AREA ES=&quot;" newline="False"/>
+            <output expression="AREA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
