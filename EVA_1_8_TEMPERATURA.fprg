@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_7_TRIANGULO"/>
+        <attribute name="authors" value="Erick"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-01 10:15:52 p. m."/>
+        <attribute name="created" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDE7MDk6NTY6NDcgcC4gbS47Mjk3Mg=="/>
+        <attribute name="edited" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDE7MTA6MTU6NTIgcC4gbS47MjszMDY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F" type="Real" array="False" size=""/>
+            <declare name="CELSIUS" type="Real" array="False" size=""/>
+            <assign variable="F" expression="90"/>
+            <assign variable="CELSIUS" expression="(5*F-32)/9"/>
+            <output expression="&quot;CELSIUS= &quot;" newline="False"/>
+            <output expression="CELSIUS" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
