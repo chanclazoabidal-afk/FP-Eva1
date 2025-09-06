@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_11_operacioneslogicas"/>
+        <attribute name="authors" value="Erick"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-05 09:27:49 p. m."/>
+        <attribute name="created" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDU7MDg6NDQ6MDcgcC4gbS47Mjk2OA=="/>
+        <attribute name="edited" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDU7MDk6Mjc6NDkgcC4gbS47MjszMDg1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="radio" type="Real" array="False" size=""/>
+            <declare name="resultado1" type="Boolean" array="False" size=""/>
+            <declare name="resultado2" type="Boolean" array="False" size=""/>
+            <declare name="resultado3" type="Boolean" array="False" size=""/>
+            <declare name="resultado4" type="Boolean" array="False" size=""/>
+            <declare name="resultado" type="Boolean" array="False" size=""/>
+            <output expression="&quot;ingrese el Area&quot;" newline="True"/>
+            <input variable="area"/>
+            <assign variable="radio" expression="sqrt(area/3.141686)"/>
+            <output expression="&quot;Su radio es: &quot;" newline="True"/>
+            <output expression="radio" newline="True"/>
+            <if expression="radio&lt;0">
+                <then>
+                    <assign variable="resultado1" expression="true"/>
+                    <output expression="&quot;El resultado es menor que 0?: &quot;" newline="True"/>
+                    <output expression="resultado1" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="resultado1" expression="false"/>
+                    <output expression="&quot;El resultado es menor que 0?: &quot;" newline="True"/>
+                    <output expression="resultado1" newline="True"/>
+                </else>
+            </if>
+            <if expression="radio&gt;0">
+                <then>
+                    <assign variable="resultado2" expression="true"/>
+                    <output expression="&quot;El resultado es mayor que 0?: &quot;" newline="True"/>
+                    <output expression="resultado2" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="resultado2" expression="false"/>
+                    <output expression="&quot;El resultado es mayor que 0?: &quot;" newline="True"/>
+                    <output expression="resultado2" newline="True"/>
+                </else>
+            </if>
+            <if expression="radio=0">
+                <then>
+                    <assign variable="resultado3" expression="true"/>
+                    <output expression="&quot;El resultado es igual que 0?: &quot;" newline="True"/>
+                    <output expression="resultado3" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="resultado3" expression="false"/>
+                    <output expression="&quot;El resultado es igual que 0?: &quot;" newline="True"/>
+                    <output expression="resultado3" newline="True"/>
+                </else>
+            </if>
+            <if expression="radio&lt;&gt;0">
+                <then>
+                    <assign variable="resultado4" expression="true"/>
+                    <output expression="&quot;El resultado es desigual que 0?: &quot;" newline="True"/>
+                    <output expression="resultado4" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="resultado4" expression="false"/>
+                    <output expression="&quot;El resultado es desigual que 0?: &quot;" newline="True"/>
+                    <output expression="resultado4" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
