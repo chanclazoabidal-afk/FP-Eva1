@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="EVA_1_12_IF"/>
+        <attribute name="authors" value="Erick"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-11 11:27:51 a. m."/>
+        <attribute name="created" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMDg7MDM6MTg6MDkgcC4gbS47Mjk2OQ=="/>
+        <attribute name="edited" value="RXJpY2s7REVTS1RPUC01ODU2RUo2OzIwMjUtMDktMTE7MTE6Mjc6NTEgYS4gbS47MjszMDUz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="EDAD" type="Integer" array="False" size=""/>
+            <output expression="&quot;INTRODUCE TU EDAD&quot;" newline="True"/>
+            <input variable="EDAD"/>
+            <if expression="EDAD&gt;=18">
+                <then>
+                    <output expression="&quot;TOMA TU CERVEZA&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;ERES MENOR DE EDAD&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
